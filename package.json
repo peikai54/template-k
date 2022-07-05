@@ -1,0 +1,28 @@
+{
+  "name": "react-app-template-k",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "react-init": "src/index.ts",
+    "react-init-typescript": "lib/index.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/inquirer": "^8.2.1",
+    "@types/shelljs": "^0.8.11",
+    "chalk": "^5.0.1",
+    "commander": "^9.3.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.0.0",
+    "shelljs": "^0.8.5"
+  }
+}
