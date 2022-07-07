@@ -6,6 +6,8 @@ const program = new Command();
 
 const cmdText1 = "是否删除该文件夹(YES / NO)";
 
+const cloneGit = "git@github.com:peikai54/ts-init.git";
+
 program
   .name("string-util")
   .description("CLI to some JavaScript string utilities")
@@ -46,7 +48,7 @@ const shellGitClone = async () => {
 
   shell.mkdir("-p", dirName);
 
-  shell.cd(dirName).exec("git clone git@github.com:peikai54/daily-server.git");
+  shell.cd(dirName).exec(`git clone ${cloneGit}`);
 };
 
 program
